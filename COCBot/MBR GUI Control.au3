@@ -118,7 +118,7 @@ Func GUIControl($hWind, $iMsg, $wParam, $lParam)
 				Case $DonateConfig
 					ShellExecute("https://mybot.run/forums/index.php?/donate/make-donation/")
 				Case $ModSupportConfig
-					ShellExecute("https://mybot.run/forums/index.php?/topic/17570-new-updates-merged-mybot-532-all-mods-in-one-v132-23-04-16/")
+					ShellExecute("https://mybot.run/forums/index.php?/topic/17570-new-updates-merged-mybot-532-all-mods-in-one-v133-28-04-16/")
 				Case $AboutConfig
 					OpenGUIAbout()
 				Case $btnDeletePBMessages
