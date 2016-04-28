@@ -45,7 +45,7 @@ EndIf
 #include "COCBot\functions\Chatbot\Chatbot.au3"
 
 $sBotVersion = "v5.3.2 Mod" ;~ Don't add more here, but below. Version can't be longer than vX.y.z because it it also use on Checkversion()
-$sBotTitle = "Merged My Bot " & $sBotVersion & " All In One v1.3.3 " ;~ Don't use any non file name supported characters like \ / : * ? " < > |
+$sBotTitle = "Merged My Bot " & $sBotVersion & " All In One v1.3.4 " ;~ Don't use any non file name supported characters like \ / : * ? " < > |
 
 Global $sBotTitleDefault = $sBotTitle
 
@@ -494,7 +494,7 @@ Func Idle() ;Sequence that runs until Full Army
 		$iCollectCounter = $iCollectCounter + 1
 		If $CommandStop = -1 Then
 			Train()
-			RemainTimetroops()
+;			RemainTimetroops()
 				If $Restart = True Then ExitLoop
 				If _Sleep($iDelayIdle1) Then ExitLoop
 				checkMainScreen(False)
